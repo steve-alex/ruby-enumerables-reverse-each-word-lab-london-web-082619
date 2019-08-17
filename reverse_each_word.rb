@@ -3,5 +3,5 @@ def reverse_each_word(string)
   string.split.each do |word|
     new_string += word.reverse! + " "
   end  
-  new_string
+  new_string.strip!
 end
